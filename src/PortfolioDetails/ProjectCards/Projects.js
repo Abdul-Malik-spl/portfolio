@@ -34,7 +34,7 @@ let Projects=()=>{
                  </div>
                  <div className="col-6 col-md-6 col-lg-6 col-xlg-6 img-back">
                     <div className="imgag-size">
-                   <img src={a.pic} width="100%"/>
+                   <img src={a.pic} alt="project" width="100%"/>
                    </div>
                    
                  </div>
