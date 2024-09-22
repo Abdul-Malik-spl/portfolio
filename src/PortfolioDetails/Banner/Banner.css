@@ -1,0 +1,37 @@
+#Banner{width:100%;padding-bottom:20px;}
+.row-content{justify-content:space-around}
+.squeare-content{height:300px;width:350px;padding:10px;background:gray;border-radius:60%;
+z-index:99;
+animation:rot 10s linear infinite}
+
+.squeare-content img{border-radius:60%;}
+.resume-btn{margin-top:30px;height:35px;width:150px}
+.btn-banner{display:flex;justify-content:center}
+.btn-banner button{background:transparent; border:1px solid white;z-index:99;border-radius:20px;}
+.btn-banner button:hover{background:rgba(0,0,250,.5);border:1px solid greenyellow;color:greenyellow}
+.btn-banner button:active{background:rgba(173,255,47,1);border:1px solid blue;color:blue}
+.btn-banner button a{color:white}
+.name-banner{justify-content:center;display:flex;color:white;margin-top:20px;}
+
+.dot1{height:20px;width:20px;background:pink;animation:dot-one-move 20s  infinite;z-index:-99;
+    border-radius:20px;box-shadow:5px 5px 15px  pink;
+}
+
+@keyframes dot-one-move{
+    0%{transform:translateY(0)}
+    25%{transform:translateX(500px)}
+    50%{transform:translateY(-350px);background:skyblue;}
+    75%{transform:translateY(75px)}
+    100%{transform:translateY(-300px)}
+}
+
+@keyframes rot{
+    0%{transform:rotateY(0deg)}
+    25%{transform:rotateY(90deg)}
+    50%{transform:rotateY(0deg);background:violet}
+    
+   
+}
+@media (min-width:580px){
+    #Banner{padding-top:20px;}
+}

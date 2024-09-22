@@ -1,0 +1,25 @@
+#Skills{margin-top:20px}
+
+.Skills-head{display:flex;justify-content:center;font-family:Roboto;}
+.Skills-head h1{color:white;animation:skillHead 7s linear infinite;}
+.skills-square{height:80px;width:80px;background:yellow;transform:rotateZ(45deg);
+    animation:skills-rotate 7s infinite;
+display:flex;align-items:center;justify-content:center}
+.skills-square h3{transform:rotatez(-45deg)}
+.skills-list{margin-top:20px ;}
+.space-for-skill{margin:10px;}
+.column-skill{display:flex;justify-content:center}
+@keyframes skillHead{
+    0%{transform:rotateX(0deg)}
+    25%{transform:rotateX(90deg);color:transparent}
+    50%{transform:rotateX(0deg);color:white}
+    
+}
+@keyframes skills-rotate{
+    0%{transform:rotateX(0deg),rotateZ(45deg);}
+    25%{transform:rotateX(90deg);}
+    50%{transform:rotateX(0deg)}
+}
+@media(max-width:767px){
+    .space-for-skill{margin-top:20px;}
+}

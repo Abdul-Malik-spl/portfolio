@@ -1,0 +1,9 @@
+.list-Items{justify-Content:space-around ;}
+.navbar{display:flex;align-items:center;height:100%;width:100%}
+#nav{height:5vh;color:white;position:sticky;top:0;z-index:109;
+background:rgba(0,0,128,.7)}
+.list-Items{display:flex;justify-content:space-around}
+.list-Items li a{display:inline-block; color:white;width:100%;padding:10px;font-family:Roboto;}
+.list-Items li:hover{background:violet;}
+.logo{padding:10px;font-family:Roboto;}
+.logo a{color:white}
