@@ -3,7 +3,8 @@ import './Banner.css'
 import pic from '../image/image1.jpg'
 let Banner=()=>{
 
-
+//this is a test change
+//this is a test change
     return(
         <div id="Banner">
             <div className="Banner-Content container">
