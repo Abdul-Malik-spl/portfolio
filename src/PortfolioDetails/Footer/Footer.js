@@ -9,8 +9,8 @@ let Footer=()=>{
         <div className="Contact-div"><h1>CONTACT</h1></div>
         <div className="container footer-content">
             <div className="row">
-       <div className="mail-left col-6 col-md-6 col-lg-6 col-xlg-6">click the mail : <a href="abdulmalikspl@gmail.com">abdulmalik@gmail.com </a></div>
-            <div className="social-m row col-6 col-md-3 col-lg-3 col-xlg-3">
+       <div className="mail-left col-7 col-md-7 col-lg-7 col-xlg-7">click the mail : <a href="abdulmalikspl@gmail.com">abdulmalik@gmail.com </a></div>
+            <div className="social-m row col-5 col-md-3 col-lg-3 col-xlg-3">
                 <div className="col-12 col-md-3 col-lg-3 col-xlg-3">
                     <a href="https://www.instagram.com/abd_spl" target="_blank"><FaInstagram className="ins"/></a></div>
                 <div className="col-12 col-md-3 col-lg-3 col-xlg-3"><a href="#" target="_blank"><FaFacebook className="fb"/></a></div>

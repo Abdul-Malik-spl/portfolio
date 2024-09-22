@@ -11,7 +11,7 @@ let Projects=()=>{
                pic:bask,
    },{name:"Bank Task",
     paragraph:"paragraph for bank will update",
-    link:"",
+    link:"https://abdul-malik-spl.github.io/bankTask/",
     pic:bank,
 },]
     return(

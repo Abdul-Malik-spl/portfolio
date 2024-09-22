@@ -19,10 +19,8 @@ animation:rot 10s linear infinite}
 
 @keyframes dot-one-move{
     0%{transform:translateY(0)}
-    25%{transform:translateX(500px)}
-    50%{transform:translateY(-350px);background:skyblue;}
-    75%{transform:translateY(75px)}
-    100%{transform:translateY(-300px)}
+    100%{transform:translateY(500px);background:skyblue;}
+ 
 }
 
 @keyframes rot{
