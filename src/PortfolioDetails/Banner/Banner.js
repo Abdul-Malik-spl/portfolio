@@ -13,7 +13,11 @@ let Banner=()=>{
                         <img src={pic} width="100%" height="100%"/>
                          </div>
                          
-                         <div className="col-12 col-md-12 col-lg-12 col-xlg-12 btn-banner"><button className="resume-btn"><a href="/AbdulMalikResume.pdf" download="AbdulMalikResume.pdf">Resume Download</a></button></div>
+                         <div className="col-12 col-md-12 col-lg-12 col-xlg-12 btn-banner">
+                            {/* <button className=""> */}
+                                <a className="resume-btn" href={`${process.env.PUBLIC_URL}/AbdulMalikResume.pdf`} download="AbdulMalikResume.pdf">Resume Download</a>
+                            {/* </button> */}
+                            </div>
                 </div>
                 {/* <div className="typewriter"><h1>Abdul Malik</h1></div> */}
                 <div className="dot1"></div>
