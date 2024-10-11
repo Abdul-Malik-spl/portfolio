@@ -1,6 +1,6 @@
 #Banner{width:100%;padding-bottom:20px;}
 .row-content{justify-content:space-around}
-.squeare-content{height:300px;width:350px;padding:10px;background:gray;border-radius:60%;
+.squeare-content{height:300px;width:300px;padding:10px;background:gray;border-radius:60%;
 z-index:99;
 animation:rot 10s linear infinite}
 

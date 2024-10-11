@@ -1,6 +1,6 @@
 import React from 'react'
 import './Banner.css'
-import pic from '../image/image1.jpg'
+import pic from '../image/image3.jpg'
 let Banner=()=>{
 
 //this is a test change
