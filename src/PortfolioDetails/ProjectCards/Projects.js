@@ -5,6 +5,8 @@ import bank from "./images/bank-pic.png"
 import rock from "./images/rock-pic.jpg"
 import clock from './images/clock-pic.jpeg'
 import fb from "./images/fb-pic.png"
+import bmi from './images/bmi.jpg.jpeg'
+import timer from './images/timer.jpg.jpeg'
 
 
 let Projects=()=>{
@@ -29,6 +31,17 @@ let Projects=()=>{
     link:"https://abdul-malik-spl.github.io/FbTask",
     pic:fb,
 },
+{
+    name:"BMI Calculator",
+    paragraph:"My new project is a BMI Calculator, created using only HTML, CSS, and JavaScript. In this project, users can enter their weight in kilograms and their height either in inches or feet. A selection box is provided for users to choose between feet and inches, with 'feet' set as the default option. Once the user inputs their details and selects the unit, the BMI is calculated and displayed using an animated meter. Below the result, personalized advice is also shown, presented with a typewriting effect for added visual appeal.",
+    link:"https://abdul-malik-spl.github.io/bmi/train.html",
+    pic:bmi,
+},{
+    name:"",
+    paragraph:"This project is a simple timer built using HTML, CSS, and JavaScript. Users can set the timer by selecting minutes and seconds from a dropdown menu. Once the desired time is selected, clicking the 'Start' button starts the countdown in reverse. If the timer reaches the last 5 seconds, an animation is triggered, enhancing the user experience.The timer can be paused by clicking the 'Stop' button, and clicking the 'Clear' button resets the timer to zero. While the timer is running, the text box becomes disabled to prevent further inputs. Once the timer ends, the text box is re-enabled for a new timer to be set",
+    link:"https://abdul-malik-spl.github.io/stopwatch",
+    pic:timer
+}
 ]
     return(
         <div id="Projects">
