@@ -1,6 +1,6 @@
 .App{ background-image:url(./PortfolioDetails/image/bac.avif);
-background-repeat:no-repeat;
-background-size:cover; 
+/* background-repeat:no; */
+/* background-size:cover;  */
 }
 
 
@@ -12,7 +12,7 @@ background-size:cover;
 
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .App-logo{
     animation: App-logo-spin infinite 20s linear;
   }
 }
