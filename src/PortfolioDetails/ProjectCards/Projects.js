@@ -7,7 +7,8 @@ import clock from './images/clock-pic.jpeg'
 import fb from "./images/fb-pic.png"
 import bmi from './images/bmi.jpg.jpeg'
 import timer from './images/timer.jpg.jpeg'
-
+import weather from './images/weather.jpg'
+import  memory from "./images/memory.jpg"
 
 let Projects=()=>{
    let state=[{name:"Digital Clock",
@@ -37,10 +38,20 @@ let Projects=()=>{
     link:"https://abdul-malik-spl.github.io/bmi/train.html",
     pic:bmi,
 },{
-    name:"",
+    name:"Timer",
     paragraph:"This project is a simple timer built using HTML, CSS, and JavaScript. Users can set the timer by selecting minutes and seconds from a dropdown menu. Once the desired time is selected, clicking the 'Start' button starts the countdown in reverse. If the timer reaches the last 5 seconds, an animation is triggered, enhancing the user experience.The timer can be paused by clicking the 'Stop' button, and clicking the 'Clear' button resets the timer to zero. While the timer is running, the text box becomes disabled to prevent further inputs. Once the timer ends, the text box is re-enabled for a new timer to be set",
     link:"https://abdul-malik-spl.github.io/stopwatch",
     pic:timer
+},{
+name:"weather app",
+paragraph:"I have developed a simple yet powerful weather web application using React, seamlessly integrating a third-party API that provides up to 100 free data requests per month. This application enables users to search for cities worldwide and access real-time weather information, including temperature (in degrees Celsius), humidity, wind speed, pressure, UV index, sunrise, and sunset timings. The app also visually represents whether it is currently day or night in the selected city, along with wind direction indicators and simplified weather icons for an intuitive experience. With a user-friendly search option, anyone can explore global weather conditions effortlessly and stay informed about the climate in any location.",
+link:"https://abdul-malik-spl.github.io/weather/",
+pic:weather
+},{
+    name:"memory",
+    paragraph:"I have created a simple yet engaging memory card game using HTML, CSS, and JavaScript. The game consists of 12 cards arranged in 6 pairs. Players must flip two cards at a time, attempting to match identical pairs. If they choose correctly, the matching cards remain open; if they select incorrectly, the cards close again. This game challenges players' memory and concentration while providing a fun and interactive experience through a clean and minimalistic design.",
+    link:"https://abdul-malik-spl.github.io/memory-game/",
+    pic:memory
 }
 ]
     return(
