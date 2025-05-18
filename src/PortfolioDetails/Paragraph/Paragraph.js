@@ -6,7 +6,7 @@ let Paragraph=()=>{
     return(<div className="Paragraph">
 <div className="container">
     <div className="para-back">
-    <p className="Paragraph-content">Hi,My Name is Abdul Malik.<br/>And I am passionate<span className="fontChange"> front-end developer </span> 
+    <p className="Paragraph-content">Hi,My Name is <br/>Abdul Malik<br/> And I am passionate<span className="fontChange"> front-end developer </span> 
     specializing in <b>React</b> As a fresher, I am excited to build responsive and user-friendly websites that deliver seamless User experiences.
     
     </p>

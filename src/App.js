@@ -10,8 +10,11 @@ function App() {
     <div className="App">
       
   <Nav/>
-  <Banner/>
-  <Paragraph/>
+  <div className="bannerparagraphgrid">
+  <div className="banner-sec"><Banner/></div>
+  <div className="para-sec"><Paragraph/></div>
+ 
+  </div>
   <Skills/>
   <Projects/>
   <Footer/>

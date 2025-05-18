@@ -9,10 +9,12 @@ let Banner=()=>{
         <div id="Banner">
             <div className="Banner-Content container">
                 <div className="row row-content">
+                    <div className="parant-squear">
                     <div className="squeare-content col-4 col-md-4 col-lg-4 col-xlg-4">
                         <img src={pic} width="100%" height="100%"/>
                          </div>
-                         
+                         <div className="rotright"></div>
+                         </div>
                          <div className="col-12 col-md-12 col-lg-12 col-xlg-12 btn-banner">
                             {/* <button className=""> */}
                                 <a className="resume-btn" href={`${process.env.PUBLIC_URL}/AbdulMalikResume.pdf`} download="AbdulMalikResume.pdf">Resume Download</a>

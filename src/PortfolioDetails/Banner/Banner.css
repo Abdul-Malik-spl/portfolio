@@ -1,10 +1,40 @@
 #Banner{width:100%;padding-bottom:20px;}
 .row-content{justify-content:space-around}
-.squeare-content{height:300px;width:300px;padding:10px;background:gray;border-radius:60%;
-z-index:99;
-animation:rot 10s linear infinite}
+.squeare-content{height:180px;width:180px;background:gray;border-radius:50%;
+z-index:99;position:absolute;top:50%;left:50%;
+transform:translate(-50%,-50%)
+/* animation:rot 10s linear infinite */
+}
+.rotright{
+    height:30px;
+    width:280px;
+background:linear-gradient(to right,gold,blue);
+position:absolute;
+top:45%;
+right:-5%;
 
-.squeare-content img{border-radius:60%;}
+/* box-shadow:15px 15px  5px yellow; */
+animation:rotani 5s infinite;
+}
+.parant-squear{
+    height:200px;
+    width:200px;
+    background:whitesmoke;
+    position:relative;
+    /* transform:translateY(-50%) */
+    overflow:hidden;
+    border-radius:50%
+}
+@keyframes rotani{
+    0%{
+transform:rotateZ(0deg);
+    }
+    100%{
+        transform:rotateZ(360deg);  
+    }
+}
+.squeare-content img{border-radius:60%;
+}
 .resume-btn{margin-top:30px;height:35px;width:150px}
 .btn-banner{display:flex;justify-content:center}
 .resume-btn{display:flex;align-items:center;justify-content:center;color:white}

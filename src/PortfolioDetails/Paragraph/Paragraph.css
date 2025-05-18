@@ -1,4 +1,15 @@
-.Paragraph{margin-top:20px;}
+.Paragraph{
+    margin:20px auto;
+/* width:300px; */
+max-width:450px;
+}
+.para{
+ 
+}
+.tbl-para{
+    /* margin:0 auto; */
+    border:1px solid
+}
 .Paragraph-content{color:white;font-family:Roboto;font-size:24px;text-align:center;}
 .fontChange{font-family:Roboto;font-weight:bolder;}
 .font-back{font-family:Roboto}

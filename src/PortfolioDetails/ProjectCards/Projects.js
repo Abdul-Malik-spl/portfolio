@@ -12,48 +12,153 @@ import  memory from "./images/memory.jpg"
 
 let Projects=()=>{
    let state=[{name:"Digital Clock",
-    paragraph:"This project is a digital clock built using HTML, CSS, and JavaScript. The design focuses on a clean and modern interface, styled entirely with CSS. The clock displays the current date, month, year, day of the week, as well as hours, minutes, and seconds, providing real-time updates. This project showcases my ability to create interactive web applications with fundamental web technologies.",
+    paragraph:[
+        ["Project Type", "Digital clock"],
+        ["Technologies Used", "HTML, CSS, JavaScript"],
+        ["Design Focus", "Clean and modern interface"],
+        ["Styling Method", "Styled entirely with CSS"],
+        ["Displayed Information", "Current date", "Month", "Year", "Day of the week", "Hours", "Minutes", "Seconds"],
+        ["Functionality", "Provides real-time updates"],
+        ["Purpose", "Showcases ability to create interactive web applications"],
+        ["Core Technologies", "Fundamental web technologies"]
+    ]
+    ,
     link:"https://abdul-malik-spl.github.io/Digital-Clock",
     pic:clock,
-},{name:"Rock Papper Scissor game",
-    paragraph:"This project is built using HTML, CSS, and JavaScript. It’s a Rock, Paper, Scissors game that you play against the computer. You choose one of the three options—rock, paper, or scissors—by clicking the corresponding button. Once you make your selection, the computer will also choose its option, and the result will be displayed below.   ",
+},
+{name:"Rock Papper Scissor game",
+    paragraph:[
+  ["Project Type", "Rock, Paper, Scissors Game"],
+  ["Technologies Used", "HTML, CSS, JavaScript"],
+  ["Gameplay", "Player vs. Computer"],
+  ["Selection Method", "Player chooses rock, paper, or scissors by clicking a button"],
+  ["Computer Choice", "Random selection of rock, paper, or scissors"],
+  ["Result Display", "Outcome shown after both player and computer make selections"],
+  ["Purpose", "Demonstrates interactive web application development"],
+  ["Core Technologies", "Fundamental web technologies"]
+],
     link:"https://abdul-malik-spl.github.io/rock-papper-scissors",
     pic:rock,
-},{name:"Little Basket",
-               paragraph:"This project is a small grocery application built with React and Redux. It is fully responsive and designed using only CSS, without Bootstrap. The app allows users to select products, check their bucket list to see how many items they have selected, view the total quantity, and calculate the total amount. Users can add items to their cart or decrease the quantity as needed. They can also mark items as favorites by clicking the favorite icon. Additionally, they can click on a product's picture to view individual product details.",
+},
+{name:"Little Basket",
+paragraph:[
+    ["Project Type", "Grocery Application"],
+    ["Technologies Used", "React, Redux, CSS (without Bootstrap)"],
+    ["Design Focus", "Fully responsive interface"],
+    ["Styling Method", "Styled entirely with CSS"],
+    ["Functionality", "Allows users to select products, manage their bucket list, and track quantity"],
+    ["Cart Features", "Users can add items to cart, adjust quantity, and calculate total amount"],
+    ["Favorites Feature", "Users can mark items as favorites by clicking the favorite icon"],
+    ["Product Details", "Users can click on a product's picture to view individual details"],
+    ["Purpose", "Showcases interactive web application development using React and Redux"]
+  ]
+,  
                link:"https://abdul-malik-spl.github.io/littleBasket",
                pic:bask,
    },{name:"Bank Task",
-    paragraph:"This project is a simple banking application built with React and Redux. It is fully responsive and designed using only CSS. The app features three user accounts: User 1 (Raj111, password: 0101), User 2 (Suresh112, password: 5151), and User 3 (Mahesh113, password: 5331). After logging in, users can view their bank details and access options for credit and debit transactions. The application displays real-time balance updates, as well as a comprehensive transaction history. Each transaction includes details such as the year, month, date, hour, minute, and second, along with the respective debit or credit information.",
+paragraph:[
+    ["Project Type", "Banking Application"],
+    ["Technologies Used", "React, Redux, CSS"],
+    ["Design Focus", "Fully responsive interface"],
+    ["Styling Method", "Styled entirely with CSS"],
+    ["User Accounts", "Raj111 (password: 0101), Suresh112 (password: 5151), Mahesh113 (password: 5331)"],
+    ["Banking Features", "Users can view bank details, perform credit and debit transactions"],
+    ["Real-Time Updates", "Balance updates dynamically"],
+    ["Transaction History", "Comprehensive history with timestamps (year, month, date, hour, minute, second)"],
+    ["Purpose", "Showcases interactive web application development using React and Redux"]
+  ]
+  ,
     link:"https://abdul-malik-spl.github.io/bankTask/",
     pic:bank,
 },{name:"Fb Task",
-    paragraph:"in this Facebook-inspired project, users start on a login page where they need to enter their Gmail and password to access the home page. After logging in, the home page is initially empty, with a message asking the user to create a post. To create a post, the user can click a text box, write a message, and select a color template. The available templates include red, blue, green, white, and radiant colors, such as flag colors. The 'Post' button is disabled until the user enters text and selects a template. Once the post is submitted, it appears on the home page If the user adds multiple posts, an arrow appears on the right, allowing them to navigate through different pages of posts. Each post on the home page has like and comment buttons, allowing users to interact with the content. The like button adds a like to the post, and the comment button opens a comment box where users can submit their thoughts.The home icon is functional, allowing users to return to the home page from other sections, such as the message or friends list. The message and friends icons display a list of other users. Other icons like the TV and bell icons are present for design purposes but are not functional.The following are the users and their login credentials 1. Abdul – abdul@gmail.com (Password: 12345) 2. Raj – raj@gmail.com (Password: 54321) 3. Kavi – kavi@gmail.com (Password: 01010)",
+paragraph:[
+    ["Project Type", "Facebook-Inspired Social Media Platform"],
+    ["Technologies Used", "React, Redux, CSS"],
+    ["Login Process", "Users enter Gmail and password to access the home page"],
+    ["Home Page", "Initially empty with prompt to create a post"],
+    ["Post Creation", "Users click a text box, write a message, and select a color template"],
+    ["Color Templates", "Red, blue, green, white, radiant colors (e.g., flag colors)"],
+    ["Post Submission", "Post button disabled until user enters text and selects a template"],
+    ["Post Navigation", "Arrow appears when multiple posts are added"],
+    ["User Interaction", "Like button for liking posts, comment button for submitting thoughts"],
+    ["Navigation Features", "Home icon returns users to home page, message and friends icons display lists"],
+    ["Inactive Icons", "TV and bell icons are present for design but not functional"],
+    ["User Accounts & Credentials", "Abdul – abdul@gmail.com (Password: 12345), Raj – raj@gmail.com (Password: 54321), Kavi – kavi@gmail.com (Password: 01010)"],
+    ["Purpose", "Showcases interactive web application development with user interaction features"]
+  ]
+,  
     link:"https://abdul-malik-spl.github.io/FbTask",
     pic:fb,
 },
 {
     name:"BMI Calculator",
-    paragraph:"My new project is a BMI Calculator, created using only HTML, CSS, and JavaScript. In this project, users can enter their weight in kilograms and their height either in inches or feet. A selection box is provided for users to choose between feet and inches, with 'feet' set as the default option. Once the user inputs their details and selects the unit, the BMI is calculated and displayed using an animated meter. Below the result, personalized advice is also shown, presented with a typewriting effect for added visual appeal.",
+paragraph:[
+    ["Project Type", "BMI Calculator"],
+    ["Technologies Used", "HTML, CSS, JavaScript"],
+    ["Input Parameters", "Weight in kilograms, height in feet or inches"],
+    ["Unit Selection", "Feet set as default, users can switch to inches"],
+    ["Calculation", "BMI calculated upon user input"],
+    ["Display Method", "Animated meter shows BMI result"],
+    ["Personalized Advice", "Displayed below result with typewriting effect"],
+    ["Design Focus", "Simple and visually engaging user interface"],
+    ["Purpose", "Demonstrates interactive web application development"]
+  ]
+,  
     link:"https://abdul-malik-spl.github.io/bmi/train.html",
     pic:bmi,
 },{
     name:"Timer",
-    paragraph:"This project is a simple timer built using HTML, CSS, and JavaScript. Users can set the timer by selecting minutes and seconds from a dropdown menu. Once the desired time is selected, clicking the 'Start' button starts the countdown in reverse. If the timer reaches the last 5 seconds, an animation is triggered, enhancing the user experience.The timer can be paused by clicking the 'Stop' button, and clicking the 'Clear' button resets the timer to zero. While the timer is running, the text box becomes disabled to prevent further inputs. Once the timer ends, the text box is re-enabled for a new timer to be set",
+paragraph:[
+    ["Project Type", "Timer Application"],
+    ["Technologies Used", "HTML, CSS, JavaScript"],
+    ["Time Selection", "Users set minutes and seconds via dropdown menu"],
+    ["Countdown Mechanism", "Starts in reverse upon clicking 'Start' button"],
+    ["Animation Feature", "Triggers in the last 5 seconds for enhanced user experience"],
+    ["Pause Functionality", "Timer can be paused using 'Stop' button"],
+    ["Reset Functionality", "Timer resets to zero when 'Clear' button is clicked"],
+    ["Input Restrictions", "Text box disabled while timer runs to prevent edits"],
+    ["Reactivation", "Text box re-enabled after timer ends for a new setup"],
+    ["Purpose", "Showcases interactive web application development"]
+  ]
+,  
     link:"https://abdul-malik-spl.github.io/stopwatch",
     pic:timer
 },{
 name:"weather app",
-paragraph:"I have developed a simple yet powerful weather web application using React, seamlessly integrating a third-party API that provides up to 100 free data requests per month. This application enables users to search for cities worldwide and access real-time weather information, including temperature (in degrees Celsius), humidity, wind speed, pressure, UV index, sunrise, and sunset timings. The app also visually represents whether it is currently day or night in the selected city, along with wind direction indicators and simplified weather icons for an intuitive experience. With a user-friendly search option, anyone can explore global weather conditions effortlessly and stay informed about the climate in any location.",
+paragraph:[
+    ["Project Type", "Weather Web Application"],
+    ["Technologies Used", "React, Third-Party API"],
+    ["API Limit", "Allows up to 100 free data requests per month"],
+    ["Search Functionality", "Users can search for cities worldwide"],
+    ["Real-Time Data", "Provides live weather updates including temperature, humidity, wind speed, and pressure"],
+    ["Additional Metrics", "Displays UV index, sunrise, and sunset timings"],
+    ["Visual Representation", "Indicates whether it is currently day or night in the selected city"],
+    ["Wind Features", "Includes wind direction indicators"],
+    ["Weather Icons", "Simplified icons for intuitive user experience"],
+    ["User-Friendly Search", "Effortless global weather exploration"],
+    ["Purpose", "Showcases interactive web application development"]
+  ]
+,  
 link:"https://abdul-malik-spl.github.io/weather/",
 pic:weather
 },{
     name:"memory",
-    paragraph:"I have created a simple yet engaging memory card game using HTML, CSS, and JavaScript. The game consists of 12 cards arranged in 6 pairs. Players must flip two cards at a time, attempting to match identical pairs. If they choose correctly, the matching cards remain open; if they select incorrectly, the cards close again. This game challenges players' memory and concentration while providing a fun and interactive experience through a clean and minimalistic design.",
+paragraph:[
+    ["Project Type", "Memory Card Game"],
+    ["Technologies Used", "HTML, CSS, JavaScript"],
+    ["Card Setup", "12 cards arranged in 6 pairs"],
+    ["Gameplay", "Players flip two cards at a time to match identical pairs"],
+    ["Matching Mechanism", "Correct matches remain open, incorrect selections close again"],
+    ["Challenge", "Tests memory and concentration"],
+    ["Design Focus", "Clean and minimalistic interface"],
+    ["Purpose", "Provides a fun and interactive experience"]
+  ]
+,  
     link:"https://abdul-malik-spl.github.io/memory-game/",
     pic:memory
 }
 ]
+
     return(
         <div id="Projects">
             <div className="project-head"><h1>PROJECTS</h1></div>
@@ -68,13 +173,24 @@ pic:weather
                 <div className="row gap-set">
                 <div className="img-div col-12 col-md-12 col-lg-6 col-xlg-6 ">
                     <div className="img-height">
-                        <img src={a.pic} width="100%" style={{height:"150px"}}/>
+                        <img src={a.pic} width="100%" style={{width:"150px"}}/>
                     </div>
                 </div>
                 
                   <div className="paragraph-div col-12 col-md-12 col-lg-6 col-xlg-6">
                      <div className="paragraph-size ">
-                        <p className="para">{a.paragraph}</p>
+                        <div className="para">
+                           {
+                                a.paragraph.map((word)=>{
+                                  return <table class="table-para">
+                                  
+                                    <tbody>
+                                    <tr><td className="table-ttl-data">{word[0]}</td><td>:</td><td>{word[1]}</td></tr>
+                                  </tbody>
+                                  </table>
+                                })
+                            }
+                        </div>
                      </div>
                   </div>
                   <div className="container line-cart"></div>
@@ -92,13 +208,23 @@ pic:weather
              <div className="row gap-set">
              <div className="img-div col-12 col-md-12 col-lg-6 col-xlg-6 ">
                  <div className="img-height">
-                     <img src={a.pic} width="100%" style={{height:"150px"}}/>
+                     <img src={a.pic} width="100%" style={{width:"150px"}}/>
                  </div>
              </div>
              
                <div className="paragraph-div col-12 col-md-12 col-lg-6 col-xlg-6">
                   <div className="paragraph-size ">
-                     <p className="para">{a.paragraph}</p>
+                  <div className="para">
+                           {
+                                a.paragraph.map((word)=>{
+                                  return <table className="table-para ">
+                                    <tbody>
+                                    <tr><td className="table-ttl-data">{word[0]}</td ><td>:</td><td>{word[1]}</td></tr>
+                                  </tbody>
+                                  </table>
+                                })
+                            }
+                        </div>
                   </div>
                </div>
                <div className="container line-cart"></div>

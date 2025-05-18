@@ -1,6 +1,8 @@
-.App{ background-image:url(./PortfolioDetails/image/bac.avif);
+.App{ 
+  /* background-image:url(./PortfolioDetails/image/bac.avif); */
 /* background-repeat:no; */
 /* background-size:cover;  */
+background:black
 }
 
 
@@ -8,9 +10,29 @@
   height: 40vmin;
   pointer-events: none;
 }
-
-
-
+.bannerparagraphgrid{
+display:grid;
+grid-template-columns:1fr 1fr;
+}
+.para-sec{
+  display:grid;
+  align-content:center;
+  order:1
+}
+.banner-sec{
+  order:2
+}
+@media(max-width:650px){
+  .bannerparagraphgrid{
+    grid-template-columns:1fr;
+  }
+  .para-sec{
+    order:2;
+  }
+  .banner-sec{
+    order:1;
+  }
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo{
     animation: App-logo-spin infinite 20s linear;

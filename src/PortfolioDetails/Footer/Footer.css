@@ -1,12 +1,12 @@
 .Contact-div{display:flex;justify-content:center;color:white}
 #Contact{margin-top:20px;background:rgba(0,0,0,.5)}
-.mail-left{color:white;border-right:1px solid white;padding-right:5px;height:70px}
-.mail-left a{color:yellow}
+.mail-left{color:white;border-right:1px solid white;padding-right:5px;height:70px;text-wrap:wrap;width:50%;overflow-X:hidden}
+.mail-left a{color:yellow;text-wrap:wrap}
 .ins{background:purple;color:white
 }
-.social-m{justify-content:space-around;color:white;padding-left:10px}
+.social-m{justify-content:space-around;color:white;padding-left:10px;width:50%}
 .fb{background:blue;color:white}
 .wapp{background:green;color:white}
-.footer-content{margin-top:10px}
+.footer-content{margin-top:10px;}
 .git{background:white;color:black}
 .copy-r{background:black;color:white}
